@@ -14,6 +14,10 @@ body {
     animation: gerak 1s infinite alternate;
     overflow: hidden;
 }
+.box img{
+    width:100%;
+    height:auto;
+}
 
 @keyframes gerak {
     from {
@@ -80,4 +84,5 @@ body{
 }
 h1{
     font-size: 60px;
+
 }
