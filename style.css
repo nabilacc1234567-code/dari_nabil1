@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:gray;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    animation: gerak 1s infinite alternate;
+    overflow: hidden;
+}
+
+@keyframes gerak {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    animation: bgGanti 5s infinite alternate;
+}
+
+@keyframes bgGanti {
+    0% {
+        background: pink;
+    }
+    25% {
+        background: lightblue;
+    }
+    50% {
+        background: lightgreen;
+    }
+    75% {
+        background: orange;
+    }
+    100% {
+        background: purple;
+    }
+}
+.cake {
+    position: fixed;
+    top: -50px;
+    font-size: 40px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110vh);
+        opacity: 0;
+    }
+}
+
+/* Posisi dan kecepatan beda-beda */
+.c1 { left: 5%; animation-duration: 3s; }
+.c2 { left: 15%; animation-duration: 4s; }
+.c3 { left: 30%; animation-duration: 2.5s; }
+.c4 { left: 45%; animation-duration: 3.5s; }
+.c5 { left: 60%; animation-duration: 4.5s; }
+.c6 { left: 75%; animation-duration: 3s; }
+.c7 { left: 85%; animation-duration: 2.8s; }
+.c8 { left: 95%; animation-duration: 4s; }
+
+body{
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
